@@ -11,7 +11,7 @@ jobs:
     name: Da-Zhao1997
     steps:
       - uses: actions/checkout@v3
-      - uses: Da-Zhao1997/Da-Zhao1997@0.7.1
+      - uses: Da-Zhao1997/Da-Zhao1997
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
