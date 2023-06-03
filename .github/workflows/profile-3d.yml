@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    name: Da-Zhao1997
     steps:
       - uses: actions/checkout@v3
       - uses: Da-Zhao1997/github-profile-3d-contrib@0.7.1
