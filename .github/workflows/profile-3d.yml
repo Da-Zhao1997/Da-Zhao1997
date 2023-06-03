@@ -11,6 +11,8 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
+         with:
+         token: ${{ secrets.MY_GITHUB_TOKEN }}
       - uses: Da-Zhao1997/github-profile-3d-contrib@0.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
